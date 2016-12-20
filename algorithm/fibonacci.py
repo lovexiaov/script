@@ -1,4 +1,7 @@
 # coding: utf-8
+"""
+This is module docs.
+"""
 __author__ = 'lovexiaov'
 def fibonacci(length):
     """

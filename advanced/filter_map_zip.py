@@ -1,11 +1,11 @@
 # coding: utf-8
-__author__ = 'lovexiaov'
 """
 演示 filter、 map 和 zip 的用法:
 fileter 将不满足条件的元素过滤掉
 map 将元素处理后返回
 zip 以两（多）个序列中的最短长度为标准，将这些序列中角标位置相同的元素组合成一个元组（tuple），并返回所有元组的列表
 """
+__author__ = 'lovexiaov'
 
 def func(num):
     return True if num > 5 else False

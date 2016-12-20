@@ -1,8 +1,9 @@
 # coding: utf-8
-__author__ = 'lovexiaov'
 """
 In this module, we encapsulated some useful function to get the info in module, class, function, object, etc.
 """
+__author__ = 'lovexiaov'
+
 import objects
 
 def getDoc(obj):
@@ -31,4 +32,4 @@ if __name__ == u'__main__':
     print(getDoc(sayHi))
     print(getDoc(Dog))
     print(getDoc(Dog()))
-    # print(getDoc(objects))
+    print(getDoc(objects))

@@ -1,4 +1,7 @@
 # coding: utf-8
+"""
+This is a doc.
+"""
 __author__ = 'lovexiaov'
 
 import time

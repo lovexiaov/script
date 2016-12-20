@@ -1,4 +1,7 @@
 # coding: utf-8
+"""
+This is module docs.
+"""
 __author__ = u'lovexiaov'
 
 # 标准 for 循环（单因子 for 循环），遍历序列
