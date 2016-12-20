@@ -1,4 +1,5 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
 def fibonacci(length):
     """
     指的是这样一个数列：1、1、2、3、5、8、13、21、34。

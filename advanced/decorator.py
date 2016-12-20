@@ -1,4 +1,6 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
+
 import time
 from functools import wraps
 import datetime

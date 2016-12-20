@@ -1,4 +1,5 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
 
 def yh_triangle(columns):
     """

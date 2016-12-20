@@ -1,4 +1,5 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
 """
 In this module, we encapsulated some useful function to get the info in module, class, function, object, etc.
 """

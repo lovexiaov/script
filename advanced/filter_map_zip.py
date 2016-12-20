@@ -1,4 +1,5 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
 """
 演示 filter、 map 和 zip 的用法:
 fileter 将不满足条件的元素过滤掉

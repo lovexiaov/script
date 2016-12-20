@@ -1,4 +1,5 @@
 # coding: utf-8
+__author__ = 'lovexiaov'
 """
 'accumulate', 'chain', 'combinations', 'combinations_with_replacement', 'compress', 'count', 'cycle', 'dropwhile', 'filterfalse', 'groupby', 'islice', 'permutations', 'product', 'repeat', 'starmap', 'takewhile', 'tee', 'zip_longest'
 """
