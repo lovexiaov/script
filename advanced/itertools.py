@@ -83,11 +83,3 @@ a = [u'A', u'B']
 # result = list(product(a, range(3)))
 # print(result)
 
-for i, j, k in (u'hel', u'wor'):
-    print(i + j + k)
-
-for i in (u'hello', u'world'):
-    print(i)
-
-for i, j in u'he':
-    print(i + j)
