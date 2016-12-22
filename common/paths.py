@@ -1,13 +1,8 @@
 # coding: utf-8
-import os, sys
-
-# sys.path.append(os.path.join(os.path.abspath(os.getcwd()), 'common'))
-# sys.path.append(os.path.join(os.path.abspath(os.getcwd()), 'advanced'))
-
-# import objects
-# import decorator
-
-# print(os.path.abspath(os.getcwd()))
+"""
+This is module docs.
+"""
+__author__ = u'lovexiaov'
 
 def get_abs_project_path(file_, depth):
     """
@@ -21,3 +16,6 @@ def get_abs_project_path(file_, depth):
     dirs = os.path.split(current_path)
     print(dirs)
     print(os.path.split(dirs[0]))
+
+if __name__ == u'__main__':
+    pass
