@@ -15,6 +15,8 @@ def showTime(func):
         print(datetime.datetime.now())
         func() # style 1
         # return func() # style 2
+        # if you want do something after func excuted, then you cannot use style 2
+
     return wrapper
 
 @showTime
