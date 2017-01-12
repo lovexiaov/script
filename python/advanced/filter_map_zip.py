@@ -24,7 +24,7 @@ res = list(map(lambda x: x * x, nums))
 print(res)  # [1, 9, 25, 49, 81]
 
 chars = ['a', 'b', 'c', 'd']
-res = list(zip(nums, chars))
+res = zip(nums, chars)
 print(res)  # [(1, 'a'), (3, 'b'), (5, 'c'), (7, 'd')]
 u = zip(*res)
 print(u)  # [(1, 3, 5, 7), ('a', 'b', 'c', 'd')]
