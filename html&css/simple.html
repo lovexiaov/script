@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!-- 导入谷歌字体 Lobster-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"
+ type="text/css">
+<!-- style 标签用于在 html 文件中嵌入 css 样式 -->
+<style>
+  /*h2 是标签选择器，前面没有点号（.）*/
+  h2 {
+    color: blue;
+    /*可以定义多个字体，用逗号分隔，前面字体不可用时会依次尝试使用后面的字体*/
+    font-family: Lobster, Monospace, Sans-Serif;
+  }
+  p {
+    font-size: 16px; /*设置字体大小*/
+    font-family: Monospace; /* 设置字体类型 */
+  }
+
+  /*red-text 是类选择器，前面有点号（.），因为如果没有点号就会把它当做标签选择器*/
+  .red-text {
+    color: red;
+  }
+  .thin-blue-border {
+    border-width: 5px; /*边框的宽度*/
+    border-color: blue; /*边框的颜色*/
+    border-style: solid;; /*边框的样式*/
+    border-radius: 10px; /*边框角的平滑度，也可以用百分比表示*/
+    border-radius: 50%; /*下面的属性会覆盖掉上面相同的属性*/
+  }
+</style>
+<head>
+  <meta charset="utf-8">
+  <title>Simple page</title>
+
+</head>
+<body>
+
+  <h1 class="red-text">Main Title</h1>
+  <h2>sub title</h2>
+  <p>
+    This is a test paragraph.
+  </p>
+  <!-- 本地打开需要去掉 statics 前面的斜杠 -->
+  <img class="thin-blue-border" src="statics/1.png" />
+
+</body>
+</html>
