@@ -32,10 +32,20 @@ def group_reference():
         # print(match.group(2)) # empty string
 
 
-if __name__ == u'__main__':
-    # group_reference()
+def demo():
     t = u'Window{428ba540 u0 com.unicom.gudong.client/com.gudong.client.MainActivity}'
 
     pattern = r'^Window\{(.+ )(.+ )(.+)/(.+)\}$'
     match = re.match(pattern, t)
     print(match.groups())
+
+
+def demo2():
+    p1 = ur'星期[一二三四五六日]'
+    result = re.match(p1, u'星期二')
+    print(result.group())
+
+
+if __name__ == u'__main__':
+    # group_reference()
+    demo2()
