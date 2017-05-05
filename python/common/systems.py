@@ -22,10 +22,12 @@ print(platform.version()) # 6.1.7601
 os.system(u'echo "hello world." >> hi.txt')
 
 # add specific path to current envireonment path
-
-sys.path.append(os.path.join(os.getcwd(), r'../advanced'))
-print(sys.path)
-import advanced.evals
+sys.path.append(os.path.join(os.path.abspath(os.pardir), r'advanced'))
+# print(sys.path)
+# Get path by key
+print(os.getenv(u'ANDROID_SDK_HOME'))
+# import advanced.evals
+import evals
 
 try:
     # import module use exec
@@ -34,4 +36,3 @@ except ImportError as err:  # if the module does not exists.
     print(err)
 if __name__ == u'__main__':
     print(syss.__doc__)
-

@@ -6,6 +6,10 @@ __author__ = u'lovexiaov'
 
 import os
 
+# get the parent dir of current path
+print(os.path.dirname(__file__))
+
+
 def get_abs_project_path(file_, depth):
     """
     Get the abs path of the project root dir.
@@ -15,9 +19,9 @@ def get_abs_project_path(file_, depth):
     """
     file_path = os.path.realpath(file_)
     if (isinstance(depth, int) and depth >= 0):
-        parent_dir = os.path.split(file_path)[0]
+        parent_dir = os.path.dirname(file_)
         for i in range(depth):
-            parent_dir = os.path.split(parent_dir)[0]    
+            parent_dir = os.path.dirname(parent_dir)
 
         return parent_dir
 
